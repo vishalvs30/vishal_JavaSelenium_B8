@@ -2,7 +2,7 @@ Wrapper Classes
 
 1. Check if character is a Digit
 
-package day7_assignment;
+
 
 public class CharacterDigitCheck {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ true
 
 2. Compare two Strings
 
-package day7_assignment;
+
 
 import java.util.Scanner;
 
@@ -45,7 +45,7 @@ Both Strings are not equal
 
 3. Convert using valueOf method
 
-package day7_assignment;
+
 
 public class StringConversion {
     public static void main(String[] args) {
@@ -59,7 +59,7 @@ Converted String: 456
 
 4. Create Boolean Wrapper usage
 
-package day7_assignment;
+
 
 public class BooleanWrapperExample {
     public static void main(String[] args) {
@@ -95,7 +95,7 @@ The value is TRUE
 
 5. Convert null to wrapper classes
 
-package day7_assignment;
+
 
 public class NullWrapperConversion {
     public static void main(String[] args) {
@@ -117,7 +117,6 @@ Pass by Value and Pass by Reference
 
 1. Change integer parameter
 
-package day7_assignment;
 
 public class ValueChangeDemo {
     static void modifyValue(int num) {
@@ -143,7 +142,7 @@ After method call: 20
 
 2. Swap integer values
 
-package day7_assignment;
+
 
 public class ValueSwapDemo {
     static void swapValues(int a, int b) {
@@ -173,7 +172,7 @@ After method call: x = 15, y = 30
 
 3. Pass primitive data types
 
-package day7_assignment;
+
 
 public class PrimitivePassDemo {
     static void changePrimitives(int num, double val, boolean flag) {
@@ -203,7 +202,7 @@ After method - a: 10, b: 20.5, c: true
 
 4. Modify Box object
 
-package day7_assignment;
+
 
 class Box {
     int length;
@@ -234,7 +233,6 @@ After method - length: 25
 
 5. Modify object fields
 
-package day7_assignment;
 
 class Employee {
     String name;
@@ -267,7 +265,7 @@ After method - salary: 50000.0
 
 6. Update Student marks
 
-package day7_assignment;
+
 
 class Student {
     String name;
@@ -429,7 +427,7 @@ MultiThreading
 
 1. Extend Thread class
 
-package day7_assignment;
+
 
 public class NumberThread extends Thread {
     public void run() {
@@ -453,7 +451,7 @@ Output:
 
 2. Implement Runnable interface
 
-package day7_assignment;
+
 
 public class ThreadNameDemo implements Runnable {
     public void run() {
@@ -511,7 +509,7 @@ World
 
 4. Thread.sleep() usage
 
-package day7_assignment;
+
 
 public class SleepDemo extends Thread {
     public void run() {
@@ -767,4 +765,5 @@ public class RaceConditionDemo {
     }
 }
 Output
+
 Final count: 1923
