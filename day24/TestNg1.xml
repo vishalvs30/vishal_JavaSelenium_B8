@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EbaySuite" parallel="false">
+
+  <!-- Enabled/Disabled Test -->
+  <test name="EbayEnableTest">
+    <classes>
+      <class name="ReadExcel.EbayEnable"/>
+    </classes>
+  </test>
+
+  <!--Repeat Test -->
+  <test name="SearchRepeatTest">
+    <classes>
+      <class name="ReadExcel.searchRepeat"/>
+    </classes>
+  </test>
+
+  <!--Login with Parameters -->
+  <test name="EbayLoginTest">
+    <parameter name="username" value="vishalvswami7@gmail.com"/>
+    <parameter name="password" value="Ebay@140825"/>
+    <classes>
+      <class name="ReadExcel.EbayLogin"/>
+    </classes>
+  </test>
+
+  <!--Dependent Tests -->
+  <test name="EbayDependentTest">
+    <classes>
+      <class name="ReadExcel.Ebaydependent"/>
+    </classes>
+  </test>
+
+  <!-- Data Provider Login -->
+  <test name="EbayDataProviderTest">
+    <classes>
+      <class name="ReadExcel.EbayDataprovider"/>
+    </classes>
+  </test>
+
+</suite>
