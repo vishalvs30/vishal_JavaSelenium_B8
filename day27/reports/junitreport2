@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="125.176" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-08-21T10:55:25.100934800Z">
+<testcase classname="Search Products with Search by All Category Option" name="Click on Allcategory option and open" time="8.542">
+<system-out><![CDATA[
+Given Click on ALL Category button..........................................passed
+When Click on ALL Category and Search.......................................passed
+Then Display List of products in that category..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Products with Search by Category Option" name="Click on search by category option and open" time="8.591">
+<system-out><![CDATA[
+Given Open Browser Home Page................................................passed
+When Click on by Category and Search........................................passed
+Then Display List of products...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay Add and Delete Cart" name="Add and delete any product" time="27.528">
+<system-out><![CDATA[
+Given Product is searched on home page......................................passed
+When add product to cart....................................................passed
+And Open cart and remove product............................................passed
+Then check product is deleted...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Change Page to another COuntry" name="Check Flaf and click" time="8.608">
+<system-out><![CDATA[
+Given All Flags.............................................................passed
+When Click on any flag......................................................passed
+Then Choosed flag...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay login Page" name="Check for valid and invalid credentials - #1.1" time="9.882">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When Emaildjamadar01@gmail.com..............................................passed
+And Password Pass@123.......................................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Detail Page" name="Whole Product description is displayed in new tab" time="15.232">
+<system-out><![CDATA[
+Given Ebay WebPage on browser...............................................passed
+When Click on  product......................................................passed
+Then Product is Displayed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check Categoris by Scrolling" name="" time="4.676">
+<system-out><![CDATA[
+Given Scroll mouse on each category.........................................passed
+When Scroll.................................................................passed
+Then Display................................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="#1.1" time="8.475">
+<system-out><![CDATA[
+Given Open Ebay home page for searching product.............................passed
+When search watch...........................................................passed
+Then Display result.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="#1.2" time="7.439">
+<system-out><![CDATA[
+Given Open Ebay home page for searching product.............................passed
+When search mobile..........................................................passed
+Then Display result.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="#1.3" time="8.805">
+<system-out><![CDATA[
+Given Open Ebay home page for searching product.............................passed
+When search headphones......................................................passed
+Then Display result.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check Today's deals" name="" time="9.094">
+<system-out><![CDATA[
+Given Scroll down and check deals...........................................passed
+When slide forward and backward.............................................passed
+Then Display deals..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay Social Media" name="Checking Ebays Social MEdia Page" time="7.957">
+<system-out><![CDATA[
+Given Ebay Social Account Symbol............................................passed
+When click On Symbol........................................................passed
+Then Display Page...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
