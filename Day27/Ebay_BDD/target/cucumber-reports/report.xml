@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.383" tests="11" skipped="0" failures="11" errors="0" timestamp="2025-08-22T04:08:05.187385100Z">
+<testcase classname="Ebay Add and Delete Cart" name="Add and delete any product" time="0.038">
+<failure/>
+<system-out><![CDATA[
+Given Product is searched on home page......................................undefined
+When add product to cart....................................................skipped
+And Open cart and remove product............................................skipped
+Then check product is deleted...............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Product Detail Page" name="Whole Product description is displayed in new tab" time="0.009">
+<failure/>
+<system-out><![CDATA[
+Given Ebay WebPage on browser...............................................undefined
+When Click on  product......................................................skipped
+Then Product is Displayed...................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="" name="#1.1" time="0.006">
+<failure/>
+<system-out><![CDATA[
+Given Open Ebay home page for searching product.............................undefined
+When search laptop..........................................................skipped
+Then Display result.........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="" name="#1.2" time="0.008">
+<failure/>
+<system-out><![CDATA[
+Given Open Ebay home page for searching product.............................undefined
+When search mobile..........................................................skipped
+Then Display result.........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="" name="#1.3" time="0.004">
+<failure/>
+<system-out><![CDATA[
+Given Open Ebay home page for searching product.............................undefined
+When search headphones......................................................skipped
+Then Display result.........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Change Page to another COuntry" name="Check Flaf and click" time="0.005">
+<failure/>
+<system-out><![CDATA[
+Given All Flags.............................................................undefined
+When Click on any flag......................................................skipped
+Then Choosed flag...........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Ebay login Page" name="Check for valid and invalid credentials - #1.1" time="0.007">
+<failure/>
+<system-out><![CDATA[
+Given login page should be open in default browser..........................undefined
+When Emailvishalvswami7@gmail.com...........................................skipped
+And Password Ebay@140825....................................................skipped
+Then login successfully and open home page..................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Check Categoris by Scrolling" name="" time="0.005">
+<failure/>
+<system-out><![CDATA[
+Given Scroll mouse on each category.........................................undefined
+When Scroll.................................................................skipped
+Then Display................................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Search Products with Search by All Category Option" name="Click on Allcategory option and open" time="0.005">
+<failure/>
+<system-out><![CDATA[
+Given Click on ALL Category button..........................................undefined
+When Click on ALL Category and Search.......................................skipped
+Then Display List of products in that category..............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Search Products with Search by Category Option" name="Click on search by category option and open" time="0.006">
+<failure/>
+<system-out><![CDATA[
+Given Open Browser Home Page................................................undefined
+When Click on by Category and Search........................................skipped
+Then Display List of products...............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Ebay Social Media" name="Checking Ebays Social MEdia Page" time="0.018">
+<failure/>
+<system-out><![CDATA[
+Given Ebay Social Account Symbol............................................undefined
+When click On Symbol........................................................skipped
+Then Display Page...........................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
